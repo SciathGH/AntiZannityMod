@@ -23,5 +23,8 @@ public abstract class ChatHudMixin {
         if (rawMessage.contains("[Discord] [Nitro Booster] z4nityy")){
             return;
         }
+        if (rawMessage.contains("[Discord] z4nityy")){
+            return;
+        }
     }
 }

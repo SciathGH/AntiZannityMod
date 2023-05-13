@@ -1,4 +1,7 @@
-package org.antizannity.code.antizannitymod;
+package org.antizannity.code.antizannitymod
 
-public class AntiZannityMod {
+import net.fabricmc.api.ModInitializer
+
+class AntiZannityMod : ModInitializer {
+    override fun onInitialize() {}
 }
