@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "antizannitymod",
+  "version": "${version}",
+  "name": "AntiZannityMod",
+  "description": "To shut up that annoying fucker",
+  "authors": [
+    "Sciath"
+  ],
+  "contact": {
+    "repo": "https://github.com/Osgur/AntiZannityMod"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/antizannitymod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.antizannity.code.antizannitymod.client.AntiZannityModClient"
+    ],
+    "main": [
+      "org.antizannity.code.antizannitymod.AntiZannityMod"
+    ]
+  },
+  "mixins": [
+    "antizannitymod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
